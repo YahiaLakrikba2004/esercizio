@@ -26,6 +26,12 @@
 
 .App-link {
   color: #61dafb;
+  text-decoration: none;
+  transition: color 0.5s ease;
+}
+
+.App-link:hover {
+  color: #fff;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +41,78 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.ButtonComponent {
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #61dafb;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+.ButtonComponent:hover {
+  background-color: #51c4c4;
+}
+
+.container {
+  text-align: center;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.image {
+  margin: 0 10px;
+  width: 30%;
+  margin-bottom: 20px;
+}
+
+.H2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.NAV {
+  padding: 10px 0;
+}
+
+.UL {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.LI {
+  display: inline;
+  margin: 0 10px;
+}
+
+.A {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.A:hover {
+  color: #61dafb;
+  transition: ease-in-out 0.3s;
+}
+
+.P {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 50px;
+  font-family: 'Roboto', sans-serif;
 }
